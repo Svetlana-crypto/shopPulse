@@ -1,0 +1,38 @@
+.header {
+  position: absolute;
+  width: 100%;
+  top: 28px;
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__content {
+
+    &-off {
+      @include font(11px, 700)
+    }
+
+    &-name {
+      @include font(15px, 700)
+    }
+  }
+
+  &__contact {
+    @include font(18px, 700);
+
+    &-button {
+
+      padding: 11px 20px;
+      border-radius: 6px;
+      background-color: #c70101;
+      border: none;
+      text-transform: uppercase;
+      color: #ffffff;
+      margin-top: 7px;
+    }
+  }
+}
+

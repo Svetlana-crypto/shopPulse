@@ -1,0 +1,138 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  .hero__content-items {
+    padding: 40px 0;
+  }
+    .carousel .slider .owl-nav .owl-prev {
+      left: 7%;
+    }
+
+    .carousel .slider .owl-nav .owl-next {
+      right: 7%;
+    }
+  .owl-carousel .owl-item img {
+    width: 570px;
+    height: 444px;
+  }
+  .catalog__item-footer-btn {
+    padding: 0 20px;
+  }
+
+
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 520px;
+  }
+ .hero__content-title {
+   font-size: 38px;
+   padding-top: 40px;
+ }
+  .header__block {
+    position: relative;
+  }
+  .header__agent {
+    position: absolute;
+    top: 80px;
+  }
+  .col-4 {
+    width: 50%;
+  }
+  .advantages-col-4 {
+    width: 100%;
+  }
+
+  .advantages__item {
+    margin-bottom: 25px;
+  }
+  .carousel .slider .carousel__img {
+    height: 360px;
+    width: 500px;
+  }
+  .catalog__btn {
+    margin-bottom: 15px;
+  }
+  .catalog__item-footer-btn{
+    padding: 0 25px;
+  }
+  .reviews__block-img{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .reviews__content{
+    margin-bottom: 20px;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 320px;
+  }
+  .header__contact {
+    position: absolute;
+    top: 145px;
+  }
+  .header__content-title {
+    font-size: 36px;
+  }
+  .header__content-description {
+    font-size: 16px;
+  }
+  .header__content-button {
+    padding: 15px;
+  }
+  .col-4 {
+    width: 100%;
+  }
+  .consultation__title {
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .catalog .slider .carousel__img{
+    height: 280px;
+    width: 420px;
+  }
+  .catalog__btn {
+    width: 230px;
+    padding: 16px 0;
+  }
+  .contact__block{
+    width: 375px;
+    height: 245px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 318px;
+  }
+  .hero__content-title{
+    font-size: 180px;
+    padding-top: 25px;
+  }
+  .header__content-description{
+    font-size: 14px;
+  }
+  .hero__content-icons{
+    display: block;
+  }
+  .consultation__form{
+    width: 275px;
+  }
+  .carousel .slider .carousel__img{
+    height: 215px;
+    width: 265px;
+  }
+  .catalog__buttons{
+    margin: 35px 0;
+  }
+}

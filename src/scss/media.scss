@@ -6,7 +6,10 @@
 
 @media (max-width: 992px) {
   .container {
-    max-width: 750px;
+    max-width: 770px;
+  }
+  .hero__content {
+    text-align: center;
   }
   .hero__content-items {
     padding: 40px 0;
@@ -14,7 +17,7 @@
     .carousel .slider .owl-nav .owl-prev {
       left: 7%;
     }
-
+}
     .carousel .slider .owl-nav .owl-next {
       right: 7%;
     }
@@ -25,20 +28,52 @@
   .catalog__item-footer-btn {
     padding: 0 20px;
   }
-
-
+.row{
+  text-align: center;
+  justify-content: space-around;
 }
+.advantages__description{
+  padding: 0 6px;
+}
+
 
 @media screen and (max-width: 768px) {
   .container {
     max-width: 520px;
   }
+  .hero{
+    height: 550px;
+  }
+  .hero__content{
+    padding-bottom: 224px;
+  }
+  .hero__button{
+    font-size: 13px;
+    padding: 15px 14px;
+  }
+
  .hero__content-title {
-   font-size: 38px;
-   padding-top: 40px;
+   font-size: 28px;
+   padding-top: 1px;
+   margin-right: -120px;
  }
   .header__block {
     position: relative;
+    margin-left: -44px;
+  }
+  .header__img{
+    width: 80%;
+  }
+  .hero__content-description{
+    font-size: 12px;
+    margin-right: -90px;
+  }
+  .header__contact{
+    top: 65px;
+    left: -55px;
+  }
+  .header__contact-button{
+    padding: 8px 5px;
   }
   .header__agent {
     position: absolute;
@@ -54,9 +89,12 @@
   .advantages__item {
     margin-bottom: 25px;
   }
+  .col-4-block{
+    margin: auto;
+  }
   .carousel .slider .carousel__img {
-    height: 360px;
-    width: 500px;
+    height: 330px;
+    width: 415px;
   }
   .catalog__btn {
     margin-bottom: 15px;
@@ -116,12 +154,23 @@
     max-width: 318px;
   }
   .hero__content-title{
-    font-size: 180px;
+    font-size: 18px;
     padding-top: 25px;
+  }
+  .hero__button{
+    padding: 10px 5px;
   }
   .header__content-description{
     font-size: 14px;
   }
+  .header__contact{
+    top: 90px;
+    left: 40px;
+  }
+  .header__block{
+    margin-left: -12px;
+  }
+
   .hero__content-icons{
     display: block;
   }

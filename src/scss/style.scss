@@ -11,6 +11,7 @@ body{
   margin: 0 auto;
 }
 .row{
+  //text-align: center;
   display: flex;
   flex-wrap: wrap;
 }
@@ -32,4 +33,6 @@ $primred :#c70101;
 @import "catalog";
 @import "reviews";
 @import "contact";
+@import "up-btn";
+@import "overlay";
 @import "media";
